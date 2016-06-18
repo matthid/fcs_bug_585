@@ -16,7 +16,7 @@ open Microsoft.FSharp.Compiler.Interactive.Shell
 
 [<EntryPoint>]
 let main args =
-  printfn "%s" LibraryUsingTypeprovider.OtherStuff.t
+  //printfn "%s" LibraryUsingTypeprovider.OtherStuff.t
   let fsiConfig = FsiEvaluationSession.GetDefaultConfiguration()
   let fsiArgs = [| @"C:\fsi.exe" |]
   let inStream = new StringReader("")

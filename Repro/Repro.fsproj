@@ -34,9 +34,6 @@
     <DocumentationFile>bin\Release\LibraryUsingTypeprovider.XML</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="LibraryUsingTypeprovider">
-      <HintPath>..\bin\lib\LibraryUsingTypeprovider.dll</HintPath>
-    </Reference>
     <Reference Include="mscorlib" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
